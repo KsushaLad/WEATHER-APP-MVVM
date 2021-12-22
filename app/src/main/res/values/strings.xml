@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Погода</string>
+
+    <string name="menu_weather_today">Сегодня</string>
+    <string name="menu_week_weather">На неделе</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_about_app">О приложении</string>
+
+    <string name="delimiter_comma">%1$s,\u0020</string>
+    <string name="empty" />
+
+    <string name="wind">ВЕТЕР</string>
+    <string name="feels_like">ОЩУЩАЕТСЯ КАК</string>
+    <string name="humidity">ВЛАЖНОСТЬ</string>
+    <string name="pressure">ДАВЛЕНИЕ</string>
+
+    <string name="thunderstorm_with_rain">Гроза с дождем</string>
+    <string name="thunderstorm">Гроза</string>
+    <string name="drizzle">Морось</string>
+    <string name="drizzle_rain">Моросящий дождь</string>
+    <string name="shower_drizzle">Изморось</string>
+    <string name="rain">Дождь</string>
+    <string name="heavy_rain">Ливень</string>
+    <string name="freezing_rain">Холодный дождь</string>
+    <string name="snow">Снег</string>
+    <string name="heavy_snow">Снегопад</string>
+    <string name="sleet">Мокрый снег</string>
+    <string name="rain_snow">Дождь со снегом</string>
+    <string name="mist">Туман</string>
+    <string name="dust">Песчано-пыльные вихри</string>
+    <string name="volcanic_ash">Вулканический пепел</string>
+    <string name="squalls">Шквалы</string>
+    <string name="tornado">Торнадо</string>
+    <string name="clear_sky">Ясно</string>
+    <string name="few_clouds">Переменная облачность</string>
+    <string name="clouds">Облачно</string>
+    <string name="now">Сейчас</string>
+    <string name="today">Сегодня</string>
+    <string name="tomorrow">Завтра</string>
+    <string name="day_after_tomorrow">Послезавтра</string>
+    <string name="widget_label">Виджет погоды</string>
+    <string name="initial_text_widget">Загрузка…</string>
+    <string name="ok">OK</string>
+    <string name="location_permission_explanation">Для определения прогноза погоды приложению необходим доступ к геоданным.</string>
+
+    <string name="error_title">Ошибка</string>
+    <string name="network_error_description">Отсутствует интернет-соединение. Проверьте подключение к Wi-Fi или сотовой сети и повторите попытку.</string>
+    <string name="location_permission_error_description">Для работы приложения необходим доступ к геоданным. Предоставить доступ вы можете в настройках приложения.</string>
+    <string name="unexpected_error_description">Произошла непредвиденная ошибка.</string>
+    <string name="repeat">Повторить</string>
+
+    <string name="about_app_version_parameter_name">Версия приложения</string>
+    <string name="about_app_source_data_parameter_name">Источник данных</string>
+    <string name="about_app_source_data_parameter_value">&lt;a href="https://openweathermap.org/api">OpenWeatherMap&lt;/a></string>
+    <string name="about_app_source_code_parameter_name">Исходный код</string>
+    <string name="about_app_source_code_parameter_value">&lt;a href="https://github.com/ZharovVV/OpenSourceWeatherApp">GitHub&lt;/a></string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="72dp">
+
+    <ImageView
+        android:id="@+id/nav_header_app_icon_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_weather_app_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nav_header_app_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:text="@string/app_name"
+        android:textAppearance="@style/TextAppearance.Surface.Title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nav_header_app_icon_image_view" />
+
+    <ImageView
+        android:id="@+id/nav_header_location_icon_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_baseline_room_24"
+        app:layout_constraintEnd_toStartOf="@id/nav_header_location_text_view"
+        app:layout_constraintTop_toBottomOf="@id/nav_header_app_name_text_view"
+        app:tint="?attr/colorPrimary" />
+
+    <TextView
+        android:id="@+id/nav_header_location_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+       android:textAppearance="@style/TextAppearance.Surface.Pain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nav_header_app_name_text_view" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
